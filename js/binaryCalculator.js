@@ -19,16 +19,16 @@ function action(e) {
         tempFirst = document.getElementById("res").innerHTML
         document.getElementById("res").innerHTML += btn.innerHTML
         tempFirst = parseInt(tempFirst, 2)
-        console.log(tempFirst + " toplamaFirst");
+        console.log(tempFirst + " cikarmaFirst");
     } else if (btn.id == "btnMul") {
         tempFirst = document.getElementById("res").innerHTML
         document.getElementById("res").innerHTML += btn.innerHTML
         tempFirst = parseInt(tempFirst, 2)
-        console.log(tempFirst + " toplamaFirst");
+        console.log(tempFirst + " carpimFirst");
     } else if (btn.id == "btnDiv") {
         tempFirst = document.getElementById("res").innerHTML
         tempFirst = Number(tempFirst)
-        console.log(tempFirst);
+        console.log(tempFirst+" ");
         document.getElementById("res").innerHTML += btn.innerHTML
     } else if (btn.id == "btnEql") {
         var length = document.getElementById("res").innerHTML.length
